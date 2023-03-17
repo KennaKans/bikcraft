@@ -3,8 +3,12 @@
 
 @import "./home/intro.css";
 @import "./home/tech.css";
+@import "./home/partners.css";
+@import "./home/review.css";
 
 @import "./bikes/bikes-list.css";
+
+@import "./seguros/seguros.css";
 
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";

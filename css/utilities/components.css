@@ -21,6 +21,17 @@
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+/*botão cinza do seguro prata*/
+.btn.insc-1 {
+  background: var(--c-10);
+  color: var(--c-2);
+}
+
+.btn.insc-1:hover {
+  background: var(--c-9);
+}
+
 @media (max-width: 600px) {
   .btn {
     padding: 12px 16px;
@@ -33,11 +44,13 @@
   font: 500 1.5rem/1.5 "Poppins", sans-serif;
   text-transform: uppercase;
   padding-bottom: 8px;
+  position: relative;
+  text-decoration: underline;
 }
 .link::after {
   content: "";
   display: block;
-  width: 100%;
+  width: auto;
   height: 4px;
   background-color: currentColor;
   position: absolute;

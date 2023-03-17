@@ -31,7 +31,7 @@
 .tech-content > p {
   margin-bottom: 20px;
 }
-.tech a {
+.tech-content a {
   margin-bottom: 80px;
 }
 
@@ -54,19 +54,19 @@
 
 @media (max-width: 800px) {
   .tech-bg {
-    box-shadow: intial;
+    box-shadow: initial;
   }
   .tech {
     grid-template-columns: 1fr;
   }
   .tech-content {
     padding-top: 60px;
-    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .tech-img {
     display: none;
   }
-  .tech a {
+  .tech-content a {
     margin-bottom: 60px;
   }
 }

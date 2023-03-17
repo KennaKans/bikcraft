@@ -6,7 +6,7 @@
   margin-bottom: 40px;
 }
 
-.bikes-list ul {
+.bikes-list > ul {
   display: flex;
   gap: 40px;
   padding: 0 20px 20px 20px;
@@ -31,7 +31,7 @@
   align-items: center;
 }
 
-.bikes-list h3::before {
+.bikes-list li h3::before {
   content: "";
   background-color: var(--c-p1);
   height: 8px;
