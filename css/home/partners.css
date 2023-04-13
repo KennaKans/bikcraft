@@ -1,6 +1,7 @@
 .partners {
   padding-top: 60px;
   padding-bottom: 120px;
+  overflow-x: hidden;
 }
 .partners h2 {
   margin-bottom: 60px;

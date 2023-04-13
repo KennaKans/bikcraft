@@ -1,5 +1,6 @@
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 @import "./home/intro.css";
 @import "./home/tech.css";
@@ -7,9 +8,21 @@
 @import "./home/review.css";
 
 @import "./bikes/bikes-list.css";
+@import "./bikes/bikes.css";
+
+@import "./bike/bike.css";
+@import "./bike/seguro.css";
 
 @import "./seguros/seguros.css";
+@import "./seguros/advantages.css";
+@import "./seguros/perguntas.css";
 
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
 @import "./utilities/components.css";
+@import "./utilities/formulario.css";
+
+@import "./termos/termos.css";
+
+@import "./contato/contato.css";
+@import "./contato/lojas.css";

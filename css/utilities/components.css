@@ -16,6 +16,7 @@
   text-transform: uppercase;
   color: var(--c-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
 }
 
 .btn:hover {
@@ -30,6 +31,24 @@
 
 .btn.insc-1:hover {
   background: var(--c-9);
+}
+.btn.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.btn.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg);
+  transition: transform 0.2s;
+}
+
+.btn.arrow:hover::after {
+  transform: translateX(4px);
 }
 
 @media (max-width: 600px) {
@@ -58,4 +77,26 @@
 }
 .link:hover {
   color: var(--c-0);
+}
+
+.title-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--c-11);
+}
+
+.title p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .title-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .title p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
