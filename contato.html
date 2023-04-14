@@ -44,27 +44,28 @@
     <div class="contact container">
       <section class="contact-data" aria-label="Endereço">
         <h2 class="font-1-m c-0">Loja Online</h2>
-        <div class="contact-end font-2-s c-4">
+        <div class="contact-address font-2-s c-4">
           <p>Rua Maria, 13 - Catarina</p>
           <p>Catariland - CA</p>
           <p>Brasil</p>
-          <address class="contact-sup font-2-s c-4">
-            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
-            <a href="mailto:suporte@bikcraft.com">contato@bikcraft.com</a>
-            <a href="tel:+5511999999999">+55 11 9 9999-9999</a>
-          </address>
-          <div class="contact-social">
-            <a href="./">
-              <img src="./img/redes/instagram-p.svg" alt="Instagram">
-            </a>
-            <a href="./">
-              <img src="./img/redes/facebook-p.svg" alt="Facebook">
-            </a>
-            <a href="./">
-              <img src="./img/redes/youtube-p.svg" alt="Youtube">
-            </a>
-          </div>
         </div>
+        <address class="contact-sup font-2-s c-4">
+          <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+          <a href="mailto:suporte@bikcraft.com">contato@bikcraft.com</a>
+          <a href="tel:+5511999999999">+55 11 9 9999-9999</a>
+        </address>
+        <div class="contact-social">
+          <a href="./">
+            <img src="./img/redes/instagram-p.svg" alt="Instagram">
+          </a>
+          <a href="./">
+            <img src="./img/redes/facebook-p.svg" alt="Facebook">
+          </a>
+          <a href="./">
+            <img src="./img/redes/youtube-p.svg" alt="Youtube">
+          </a>
+        </div>
+
       </section>
       <section class="contact-forms" aria-label="Formulário">
         <form class="form" action="./contato.html">
@@ -80,17 +81,49 @@
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="contato@email.com">
           </div>
-          <div>
-
+          <div class="col-2">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
-
+          <button class="btn col-2">Enviar Mensagem</button>
         </form>
       </section>
     </div>
   </main>
 
-
-
+  <article class="store container">
+    <h2 class="font-1-xxl">lojas locais <span class="c-p1">.</span></h2>
+    <div class="store-item">
+      <img src="./img/lojas/sp.jpg" alt="mapa marcando endereço Rua Maria, 13 - Catariland - CA">
+      <div class="store-content">
+        <h3 class="font-1-xl">Catariland</h3>
+        <div class="store-data font-2-s c-8">
+          <p>Rua Maria, 13</p>
+          <p>Catariland - CA</p>
+        </div>
+        <div class="store-data font-2-s c-8">
+          <a href="mailto:ca@bikcraft.com">ca@bikcraft.com</a>
+          <a href="tel:+551199999999">+55 11 9 9999-9999</a>
+        </div>
+        <p class="store-schedule font-1-s"><img src="./img/icones/horario.svg" alt="08-18h de seg à dom">08-18h de seg à dom</p>
+      </div>
+    </div>
+    <div class="store-item">
+      <img src="./img/lojas/rj.jpg" alt="mapa marcando endereço Rua Audrey, 13 - Dinaland - AU">
+      <div class="store-content">
+        <h3 class="font-1-xl">Dinaland</h3>
+        <div class="store-data font-2-s c-8">
+          <p>Rua Audrey, 13</p>
+          <p>Dinaland - AU</p>
+        </div>
+        <div class="store-data font-2-s c-8">
+          <a href="mailto:au@bikcraft.com">au@bikcraft.com</a>
+          <a href="tel:+552199999999">+55 21 9 9999-9999</a>
+        </div>
+        <p class="store-schedule font-1-s"><img src="./img/icones/horario.svg" alt="08-18h de seg à dom">08-18h de seg à dom</p>
+      </div>
+    </div>
+  </article>
 
   <footer class="footer-bg">
     <div class="footer container">
