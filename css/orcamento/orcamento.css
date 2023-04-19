@@ -108,7 +108,8 @@
 
 .orcamento-data {
   border-radius: 0 5px 5px 0;
-  background: var(--c-0);
+  background: var(--c-0)
+    /*url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px*/;
 }
 
 .orcamento-content {
@@ -124,4 +125,55 @@
 #seguro:checked ~ #orcamento-seguro {
   display: grid;
   gap: 20px;
+}
+
+.orcamento-details {
+  display: none;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-0);
+  padding: 20px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.orcamento-details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.orcamento-details li img {
+  width: 16px;
+  margin-right: 8px;
+}
+
+.orcamento-produto input:checked + label + .orcamento-details {
+  display: grid;
+}
+
+@media (max-width: 1200px) {
+  .orcamento-produto,
+  .orcamento-data {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .orcamento {
+    grid-template-columns: 1fr;
+  }
+  .orcamento-produto {
+    border-radius: 5px 5px 0 0;
+  }
+  .orcamento-data {
+    border-radius: 0 0 5px 5px;
+    /*background: var(--c-0)*/
+  }
+}
+
+@media (max-width: 400px) {
+  .orcamento-produto {
+    grid-template-columns: 1fr;
+  }
 }

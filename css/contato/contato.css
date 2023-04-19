@@ -14,14 +14,20 @@
 }
 
 .contact-data {
-  background: var(--c-12);
+  background: var(--c-12)
+    /*url("../../img/dec/bottom-left.svg") no-repeat bottom
+    20px left 20px*/;
   border-radius: 5px 0 0 5px;
 }
 
 .contact-forms {
-  background: var(--c-0);
+  background: var(--c-0)
+    /*url("../../img/dec/bottom-right.svg") no-repeat bottom
+    20px right 20px*/;
   border-radius: 0 5px 5px 0;
 }
+
+/*as urls contém os adornos das páginas --crying*/
 
 .contact-data h2 {
   margin-bottom: 60px;
@@ -77,10 +83,12 @@
   }
   .contact-data {
     border-radius: 5px 5px 0px 0px;
-    background: var(--c-12);
+    /*background: var(--c-12);*/
   }
+  /*background se tu quiser o adorno*/
   .contact-forms {
     border-radius: 0 0 5px 5px;
+    /*background: var(--c-0);*/
   }
   .contact-data h2 {
     margin-bottom: 32px;
