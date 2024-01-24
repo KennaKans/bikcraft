@@ -1,4 +1,2 @@
-Projeto completo criado no curso de HTML/CSS para Iniciantes da Origamid. 
-Linguagens Utilizadas: HTML, CSS, JavaScript & PHP.
-Ferramentas Utilizadas: Visual Studio Code & Git.
-Disponível em: https://kennakans.github.io/bikcraft/
+Project created during the HTML/CSS for Beginners course by Origamid. Languages: HTML, CSS, JavaSript & PHP. Tools: Visual Studio Code, NPM & Git. Avaliable at:  https://kennakans.github.io/bikcraft/
+
